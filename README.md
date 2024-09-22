@@ -11,4 +11,4 @@ A Drafts action to append a draft to a pre-selected Obsidian note. Available [he
 - Fill in the `vault` Template Tag with your vault name, e.g., `Personal`. 
 - Do the same with the relative path of the note for the `NoteToAppend` Template Tag. This should be the relative path to the file in your vault. In my case, I use notes in my Anki folder, so appending to the `English` note would be done as such: `Anki/English`. 
 
-Drafts handles all of the URL encoding for the vault name, file path, and draft contents. For doing the same thing to multiple notes, simply duplicate and specify the desired file paths. 
+Drafts handles all of the URL encoding for the vault name, file path, and draft contents. For doing the same thing to multiple notes, simply duplicate the action and specify the desired file path in each one. I do this and have separate actions for separate notes in order to avoid having to navigate menus within actions.
